@@ -14,3 +14,29 @@ let nome = "Daniel";
 let sobrenome = "Rocha";
 let nomeCompleto = nome + " " + sobrenome;
 console.log(nomeCompleto);
+
+let name = "Daniel";
+let lastName = "Evangelista";
+console.log(
+  `Olá, eu me chamo ${name} ${lastName} e estou testando template string`
+);
+
+let informacoesCarro = [
+  {
+    nome: "Tucson",
+    anoFabricação: 2009,
+    câmbio: "Manual",
+  },
+  {
+    nome: "Fiesta",
+    anoFabricação: 2015,
+    câmbio: "Automático",
+  },
+];
+console.log(
+  informacoesCarro.length +
+    " - Verificando quantidade dentro do objeto através do length"
+);
+
+const testandoTipo = true;
+console.log(typeof testandoTipo + " - testando o tipo da variável");
