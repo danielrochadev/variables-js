@@ -33,10 +33,8 @@ let informacoesCarro = [
     câmbio: "Automático",
   },
 ];
-console.log(
-  informacoesCarro.length +
-    " - Verificando quantidade dentro do objeto através do length"
-);
+console.log(informacoesCarro.length);
+// " - Verificando quantidade dentro do objeto através do length"
 
 const testandoTipo = true;
 console.log(typeof testandoTipo + " - testando o tipo da variável");
