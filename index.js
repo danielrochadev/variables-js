@@ -38,3 +38,14 @@ console.log(informacoesCarro.length);
 
 const testandoTipo = true;
 console.log(typeof testandoTipo + " - testando o tipo da variável");
+
+let possuiMoto = null;
+let possuiCarro = null;
+
+if (possuiMoto) {
+  console.log("Ele possui moto");
+} else if (possuiCarro) {
+  console.log("Ele possui carro");
+} else {
+  console.log("Não tem nenhum veículo");
+}
