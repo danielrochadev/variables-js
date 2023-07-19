@@ -49,3 +49,9 @@ if (possuiMoto) {
 } else {
   console.log("Não tem nenhum veículo");
 }
+
+if (1 > 2 && 2 > 4) {
+  console.log("true");
+} else {
+  console.log("false");
+}
