@@ -55,3 +55,37 @@ if (1 > 2 && 2 > 4) {
 } else {
   console.log("false");
 }
+
+function imcCalc(peso, altura) {
+  const imc = peso / altura ** 2;
+
+  return imc;
+}
+
+console.log(imcCalc(80, 1.75));
+
+function carroFavorito(carro) {
+  if (carro === "Fusca") {
+    console.log("Você gosta de Fusca");
+  } else if (carro === "Gol") {
+    console.log("Você gosta de Gol");
+  } else {
+    console.log("Você gosta de outro carro");
+  }
+}
+
+carroFavorito();
+
+let car = {
+  name: "Ferrari",
+  anoFabricação: 2021,
+  Quilometragem: 0,
+  dirigir: function (km) {
+    let kmatualizado = km + car.Quilometragem;
+
+    car.Quilometragem = kmatualizado;
+
+    return `Agora o carro tem ${kmatualizado}km rodados.`;
+  },
+  cor: "Azul",
+};
