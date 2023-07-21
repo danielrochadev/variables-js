@@ -98,6 +98,28 @@ console.log(carros);
 carros.push("onix");
 console.log(carros);
 
-for (var number = 0; number < 10; number++) {
-  console.log(number);
+for (var i = 0; i < 10; i++) {
+  console.log(i);
 }
+
+var i = 0;
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+
+var veiculos = ["chevrolet", "fiat", "tesla"];
+
+for (var i = 0; i < veiculos.length; i++) {
+  console.log(veiculos[i]);
+
+  if (veiculos[i] == "fiat") {
+    break;
+  }
+}
+
+var funcionarios = ["João", "Marcela", "Joana"];
+
+funcionarios.forEach(function (item) {
+  console.log(item);
+});
