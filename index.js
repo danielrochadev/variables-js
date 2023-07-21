@@ -89,3 +89,15 @@ let car = {
   },
   cor: "Azul",
 };
+
+var carros = ["fusca", "uno", "audi", "jeep"];
+
+carros.pop();
+console.log(carros);
+
+carros.push("onix");
+console.log(carros);
+
+for (var number = 0; number < 10; number++) {
+  console.log(number);
+}
